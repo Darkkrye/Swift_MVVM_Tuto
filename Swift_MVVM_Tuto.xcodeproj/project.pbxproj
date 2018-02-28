@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8423756A2046C05500D90DD2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842375692046C05500D90DD2 /* User.swift */; };
+		8423756D2046C1BD00D90DD2 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423756C2046C1BD00D90DD2 /* UserViewModel.swift */; };
 		84EBEF902046BFA300057A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EBEF8F2046BFA300057A74 /* AppDelegate.swift */; };
 		84EBEF922046BFA300057A74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EBEF912046BFA300057A74 /* ViewController.swift */; };
 		84EBEF952046BFA300057A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EBEF932046BFA300057A74 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		842375692046C05500D90DD2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8423756C2046C1BD00D90DD2 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		84EBEF8C2046BFA300057A74 /* Swift_MVVM_Tuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_MVVM_Tuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EBEF8F2046BFA300057A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EBEF912046BFA300057A74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842375682046C02700D90DD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842375692046C05500D90DD2 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8423756B2046C1AB00D90DD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8423756C2046C1BD00D90DD2 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		84EBEF832046BFA300057A74 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +117,8 @@
 		84EBEF8E2046BFA300057A74 /* Swift_MVVM_Tuto */ = {
 			isa = PBXGroup;
 			children = (
+				8423756B2046C1AB00D90DD2 /* ViewModel */,
+				842375682046C02700D90DD2 /* Model */,
 				84EBEF8F2046BFA300057A74 /* AppDelegate.swift */,
 				84EBEF912046BFA300057A74 /* ViewController.swift */,
 				84EBEF932046BFA300057A74 /* Main.storyboard */,
@@ -260,7 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EBEF922046BFA300057A74 /* ViewController.swift in Sources */,
+				8423756D2046C1BD00D90DD2 /* UserViewModel.swift in Sources */,
 				84EBEF902046BFA300057A74 /* AppDelegate.swift in Sources */,
+				8423756A2046C05500D90DD2 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
